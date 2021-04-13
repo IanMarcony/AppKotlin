@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#312E38"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="Faça seu logon!"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#1B1919"
+        android:hint="Nome"
+        android:textColorHint="#ccc"
+        android:background="#FFF"
+        android:padding="4dp"
+        />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#1B1919"
+        android:hint="E-mail"
+        android:textColorHint="#ccc"
+        android:background="#FFF"
+        android:padding="4dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:id="@+id/btnMessage"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Entrar"
+        />
+
+
+
+</LinearLayout>
